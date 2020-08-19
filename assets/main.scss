@@ -1,0 +1,269 @@
+---
+---
+$title-font: 'Vollkorn', serif;
+$bosy-font: 93.75%/1.5 'Courier Prime', monospace;
+$text-color: black;
+$text-link-color: #636363;
+$background-color: white;
+
+
+/*** General Styles ***/
+
+body {
+	font: $bosy-font;
+	color: $text-color;
+	background-color: $background-color;
+}
+
+.wrapper {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header {
+	padding: 0 5px;
+	text-align: left;
+}
+
+h1, h2, h3, h4 {
+	font-family: $title-font;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: $text-link-color;
+}
+blockquote {
+	padding: 12px 0 0 24px;
+	position: relative;
+}
+blockquote:before {
+	content: "\201C";
+	font-size: 60px;
+	left: -5px;
+	line-height: 1;
+	position: absolute;
+	top: -5px;
+}
+blockquote p {
+	margin-top: 0px;margin-left: 10px;margin-bottom: 30px;margin-right: 5px;
+}
+
+.button-alt {
+	background-color: $text-color;
+	width: 49.5%;
+	color: $background-color;
+	padding: 10px;;
+	font-weight: bold;
+	border: 1px solid $text-color;
+	border-radius: 2px;
+}
+
+.button-alt:hover,.button-alt:active,.button-alt:focus {
+	cursor: pointer;
+	background-color: $background-color;
+	color: $text-color;
+}
+
+.button {
+	background-color: $background-color;
+	width: 49.5%;
+	color: $text-color;
+	padding: 10px;;
+	font-weight: bold;
+	border: 1px solid $text-color;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+
+.button:hover,.button:active,.button:focus {
+	cursor: pointer;
+	background-color: $text-color;
+	color: $background-color;
+}
+
+/*** Header ***/
+.logo-container {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.logo {
+	float: left;
+	width: 96px;
+	height: 96px;
+	margin-right: 20px;
+	background-size: cover;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 2px solid $background-color;
+	box-shadow: 0 0 0 3px $text-color;
+}
+
+.header-title {
+	margin: 0;
+}
+.header-tagline {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+
+/* Content */
+.post {
+	padding: 0;
+	margin: 0;
+}
+.post a {
+	text-decoration: underline;
+	text-decoration-color: $text-link-color;
+}
+
+.stream-item {
+	font-weight: bold;
+}
+
+.stream-content-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: $text-color;
+	font-weight: bold;
+}
+.stream-content-date {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: $text-color;
+	font-size: 10px;
+}
+
+.menu-item {
+	font-weight: bold;
+}
+
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+}
+/*** footer ***/
+footer {
+	width: 100%;
+	background-color: $text-color;
+	color: $background-color;
+	text-align: center;
+}
+
+.content {
+	padding: 1px 16px;
+}
+
+.content p {
+	text-align: justify;
+}
+
+.content img {
+	max-width: 100%;
+}
+.content-title {
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.content-grid {
+	display: grid;
+	grid-template-columns: auto;
+	padding: 10px;
+}
+.content-grid-item {
+	overflow: auto;
+}
+
+.content-grid-item i.fa, i.fas, i.far, i.fab {
+	float: left;
+	padding: 5px;
+}
+
+/* Log Pages */
+.log-title {
+	position: sticky;
+	top: 0%;
+	background-color: $text-color;
+	a {
+		color: $background-color;
+	}
+}
+
+.log-icon {
+	float: left;
+	padding: 5px; 
+	width: 32px; 
+	height: 32px;
+}
+
+
+/* Posts Page */
+
+.posts {
+	padding: 5px;
+	border: 1px solid $text-color;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+
+.posts:hover,.posts:active {
+	background-color: $text-color;
+	color: $background-color;	
+	a {
+		color: $background-color;
+	}			
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+}
+iframe {
+	width: 100%;
+	height: 380px;
+}
+
+/*** media queries ***/
+/* X-Small devices (phones, 480px and up) */
+@media (min-width: 480px) {
+	/* wrapper stays 480px wide past 480px wide and is kept centered */
+	.wrapper {
+		width: 480px;
+		margin: 5% auto 0 auto;
+	}
+}
+
+/* All other devices (768px and up) */
+@media (min-width: 768px) {
+	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
+	to accomodate both the header column and the content column */
+	.wrapper {
+		width: 90%;
+	}
+	.logo {
+		margin-left: 30%;
+	}
+	.content {
+		margin-left: 30%;	
+		width: 40%;
+	}
+	.content-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		padding: 10px;
+	}
+}

@@ -1,0 +1,15 @@
+
+{% assign icon = post.category %}
+{% case icon %}
+    {% when "Post" %}
+    <img class="image-icon" src="/images/newspaper.svg">
+    {% when "Tinta en las Cintas" %}
+        <img class="image-icon" src="/images/tape.svg">
+    {% when "Tales" %}
+    <img class="image-icon" src="/images/newspaper-fav.svg">
+    {% when "Video" %}
+    <i class="far fa-file-video"></i>
+    {% else %}
+    <i class="fa fa-exclamation-circle"></i>
+{% endcase %}
+

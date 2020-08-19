@@ -1,0 +1,8 @@
+- title: "Info"
+  url: /about
+
+- title: "Posts" 
+  url: /posts
+
+- title: "Logs"
+  url: /logs  

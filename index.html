@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<div class="timeline timeline-left">
+    {% for post in site.posts limit:6 %}
+    <div class="timeline-block">
+        <div class="timeline-icon timeline-icon-hide-border">{% include category-icons.html %}</div>
+        <div class="timeline-content">
+            {% if post.external_url %}<a class="stream-item" href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+            <div class="timeline-date">{% include date.html %}</div>
+            {% else %}<a class="stream-item" href="{{ post.url }}">{{ post.title }}</a>
+            <div class="timeline-date">{% include date.html %}</div>
+            {% endif %}         
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<a href="/timeline"><button class="button" style="float: left;">Timeline</button></a>
+<a href="/posts"><button class="button" style="float: right;">Posts</button></a>
+

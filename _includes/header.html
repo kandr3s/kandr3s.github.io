@@ -1,0 +1,16 @@
+<header>
+    {% if site.logo %}
+    <div class="logo-container">
+      <a class="logo" href="/" style="background-image: url('{{ site.baseurl }}{{ site.logo }}')"></a>
+      {% if site.author %}
+      <h1 class="header-title">{{ site.name }}</h1>
+      {% endif %}
+      {% if site.tagline %}
+      <p class="header-tagline">{{ site.tagline }}</p>
+      {% endif %}
+      <a href="/about"><b>Info</b></a>
+      <a href="/posts"><b>Posts</b></a>
+      <a href="/logs"><b>Logs</b></a>
+    {% endif %}
+    </div> 
+  </header>
