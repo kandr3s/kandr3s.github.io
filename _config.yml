@@ -1,15 +1,24 @@
-# general configuration
+# General
 url: http://kandr3s.co
 baseurl: ''
 name: "kandr3s"
 logo: "/images/kandr3s.jpg"
-# author will appear under the avatar (optional)
 author: "kandr3s"
-# tagline will appear under the title (optional)
-tagline: "Web journal."
-twitter: "kandr3s"
+tagline: "A web journal."
 
-# exclude
+# SEO
+description: "kandr3s' web journal"
+twitter: 
+  username: kandr3s
+  card: summary
+social:
+  - https://twitter.com/kandr3s
+  - https://instagram.com/_kandr3s
+  - https://github.com/kandr3s
+  - https://letterboxd.com/kandr3s/
+  - https://rateyourmusic.com/~kandr3s
+
+# Exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Dependencies
