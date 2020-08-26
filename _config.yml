@@ -7,7 +7,7 @@ author: "kandr3s"
 tagline: "A web journal."
 
 # SEO
-description: "kandr3s' web journal"
+description: "kandr3s' web journal on records, films and books"
 twitter: 
   username: kandr3s
   card: summary
@@ -17,6 +17,7 @@ social:
   - https://github.com/kandr3s
   - https://letterboxd.com/kandr3s/
   - https://rateyourmusic.com/~kandr3s
+  - https://tintaenlascintas.co
 
 # Exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
