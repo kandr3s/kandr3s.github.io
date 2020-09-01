@@ -2,7 +2,7 @@
 layout: post
 title: "Drogas, tragedias y Gospel"
 description: "¿Que hace que un disco sea Gospel? ¿La letra o la estética? Tres sabores de gospel en tres discos sobre drogas, tragedias y pasión."
-external_url: https://tintaenlascintas.co/post/619395634047401984/
+external_url: https://tintaenlascintas.co/post/gospel
 category: "Tinta en las Cintas"
 ---
 Publicado originalmente en [**Tinta en las Cintas**](https://tintaenlascintas.com/gospel)
