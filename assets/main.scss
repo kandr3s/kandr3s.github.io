@@ -125,6 +125,13 @@ blockquote p {
 	text-decoration-color: $text-link-color;
 }
 
+.page a {
+    text-decoration: none;
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color: $text-link-color;
+}
+
 .stream-item {
 	font-weight: bold;
 }
