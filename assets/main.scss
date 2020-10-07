@@ -1,7 +1,7 @@
 ---
 ---
 $title-font: 'Vollkorn', serif;
-$bosy-font: 93.75%/1.5 'Courier Prime', monospace;
+$body-font: 93.75%/1.5 'Courier Prime', monospace;
 $text-color: black;
 $text-link-color: #636363;
 $background-color: white;
@@ -10,7 +10,7 @@ $background-color: white;
 /*** General Styles ***/
 
 body {
-	font: $bosy-font;
+	font: $body-font;
 	color: $text-color;
 	background-color: $background-color;
 }
