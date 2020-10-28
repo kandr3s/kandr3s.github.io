@@ -1,12 +1,12 @@
 # General
 baseurl: ''
-name: "kandr3s"
+name: "Andrés Cárdenas"
 logo: "/images/kandr3s.jpg"
 author: "kandr3s"
-tagline: "A web journal."
+tagline: "kandr3s' web journal."
 
 # SEO
-description: "kandr3s' web journal on records, films and books"
+description: "kandr3s' website: a personal journal on records, films and books"
 twitter: 
   username: kandr3s
   card: summary
