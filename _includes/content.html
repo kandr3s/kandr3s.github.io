@@ -6,7 +6,7 @@
     {% if page.layout == "post" %}
     <hr />
     <div class="post-footer">
-      <p>Archived in <a href="#">#{{ page.categories }}</a> on {% include date.html %}.</p>
-      <a href="/"><i class="fas fa-home fa-2x"></i></a><a href="/timeline"><i class="fas fa-stream"></i></a>
+      <p>Archived in <b>{{ page.categories }}</b> on {% include date.html %}.</p>
+      <a href="/"><i class="fas fa-home fa-2x"></i></a>
     </div>
     {% endif %}
