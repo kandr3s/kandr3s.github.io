@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Modern Slaves
+description: "Bukowski was right: 9-to-5ers are the modern slaves."
 date: '2020-03-20T20:20:00-05:00'
 category: "Post"
 ---
