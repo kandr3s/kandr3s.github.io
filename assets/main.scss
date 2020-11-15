@@ -26,7 +26,7 @@ header {
 	text-align: left;
 }
 
-h1, h2, h3, h4 {
+h1, h2, {
 	font-family: $title-font;
 }
 
@@ -99,19 +99,14 @@ blockquote p {
 	margin-bottom: 5px;
 }
 
-.header {
-	display: grid;
-	grid-template-columns: auto auto;
-}
-
 .logo {
 	float: left;
 	width: 96px;
 	height: 96px;
 	margin-right: 20px;
 	background-size: cover;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
+	border-radius: 5%;
+	-moz-border-radius: 5%;
 	border: 2px solid $background-color;
 	box-shadow: 0 0 0 3px $text-color;
 }
@@ -119,10 +114,9 @@ blockquote p {
 .header-title {
 	margin: 0;
 }
+
 .header-tagline {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding: 0;
+	margin: 0;
 }
 
 /* Content */
@@ -130,16 +124,10 @@ blockquote p {
 	padding: 0;
 	margin: 0;
 }
-.post a {
-	text-decoration: underline;
-	text-decoration-color: $text-link-color;
-}
-
-.page a {
-    text-decoration: none;
-    border-width: 0 0 1px 0;
-    border-style: none none solid none;
-    border-color: $text-link-color;
+.post,.page, a {
+	text-decoration: none;
+	border-width: 0 0 1px 0;
+	border-style: none none solid none;
 }
 
 .menu-item {
@@ -147,7 +135,7 @@ blockquote p {
 }
 
 .content {
-	padding: 1px 16px;
+	padding-left: 10px;
 }
 
 .content p {
@@ -168,12 +156,26 @@ blockquote p {
 
 .post-title-link {
 	font-weight: bold;
+	text-decoration: none;
+	border: 0;
 }
 
 .category-icon {
 	width: 32px;
 	height: 32px;
 	margin-right: 10px;
+}
+
+i.fa, i.fas, i.far, i.fab {
+	float: left;
+	padding: 5px;
+}
+
+.log-icon {
+	float: left;
+	padding: 5px; 
+	width: 32px; 
+	height: 32px;
 }
 
 /* Posts Page */
@@ -221,6 +223,9 @@ hr {
 	.content {
 		margin-top: 20px;
 	}
+	.logo {
+		margin-left: 30%;
+	}
 	.category-icon {
 		width: 28px;
 		height: 28px;
@@ -234,9 +239,6 @@ hr {
 	to accomodate both the header column and the content column */
 	.wrapper {
 		width: 90%;
-	}
-	.logo {
-		margin-left: 30%;
 	}
 	.content {
 		margin-left: 30%;	
