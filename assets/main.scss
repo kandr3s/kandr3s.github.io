@@ -87,10 +87,21 @@ blockquote p {
 	color: $background-color;
 }
 
+.content-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
 /*** Header ***/
 .logo-container {
 	padding: 5px;
 	margin-bottom: 5px;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: auto auto;
 }
 
 .logo {
@@ -114,7 +125,6 @@ blockquote p {
 	padding: 0;
 }
 
-
 /* Content */
 .post {
 	padding: 0;
@@ -132,42 +142,8 @@ blockquote p {
     border-color: $text-link-color;
 }
 
-.stream-item {
-	font-weight: bold;
-}
-
-.stream-content-title {
-	margin-top: 0;
-	margin-bottom: 0;
-	color: $text-color;
-	font-weight: bold;
-}
-.stream-content-date {
-	margin-top: 0;
-	margin-bottom: 0;
-	color: $text-color;
-	font-size: 10px;
-}
-
 .menu-item {
 	font-weight: bold;
-}
-
-
-hr {
-	border: 0;
-	height: 1px;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-}
-/*** footer ***/
-footer {
-	width: 100%;
-	background-color: $text-color;
-	color: $background-color;
-	text-align: center;
 }
 
 .content {
@@ -186,43 +162,24 @@ footer {
 	margin-bottom: 0;
 }
 
-.content-grid {
-	display: grid;
-	grid-template-columns: auto;
-	padding: 10px;
-}
-.content-grid-item {
-	overflow: auto;
+.post-info {
+	margin-bottom: 20px;
 }
 
-.content-grid-item i.fa, i.fas, i.far, i.fab {
-	float: left;
-	padding: 5px;
+.post-title-link {
+	font-weight: bold;
 }
 
-/* Log Pages */
-.log-title {
-	position: sticky;
-	top: 0%;
-	background-color: $text-color;
-	a {
-		color: $background-color;
-	}
-}
-
-.log-icon {
-	float: left;
-	padding: 5px; 
-	width: 32px; 
+.category-icon {
+	width: 32px;
 	height: 32px;
+	margin-right: 10px;
 }
-
 
 /* Posts Page */
 
 .posts {
 	padding: 5px;
-	border: 1px solid $text-color;
 	border-radius: 2px;
 	margin-bottom: 20px;
 }
@@ -244,6 +201,15 @@ iframe {
 	height: 380px;
 }
 
+hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+}
+
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
 @media (min-width: 480px) {
@@ -251,6 +217,14 @@ iframe {
 	.wrapper {
 		width: 480px;
 		margin: 5% auto 0 auto;
+	}
+	.content {
+		margin-top: 20px;
+	}
+	.category-icon {
+		width: 28px;
+		height: 28px;
+		margin-right: 10px;
 	}
 }
 
@@ -267,10 +241,6 @@ iframe {
 	.content {
 		margin-left: 30%;	
 		width: 40%;
-	}
-	.content-grid {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		padding: 10px;
+		margin-top: 20px;
 	}
 }
