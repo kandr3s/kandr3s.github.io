@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Recommended Albums
+title: Records I ❤
 permalink: /music
 ---
+The music that shaped my life, real treasures I consider worth your time.
+
 {% for album in site.data.albums %}
  <p class="log-list">
             {% if album.rating > "7" %}
