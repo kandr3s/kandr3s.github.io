@@ -31,8 +31,10 @@ h1, h2, {
 }
 
 a {
+	color: $text-color;
 	text-decoration: none;
-	color: black;
+	border-width: 0 0 1px 0;
+	border-style: none none solid none;
 }
 
 a:hover {
@@ -123,11 +125,6 @@ blockquote p {
 .post {
 	padding: 0;
 	margin: 0;
-}
-.post,.page, a {
-	text-decoration: none;
-	border-width: 0 0 1px 0;
-	border-style: none none solid none;
 }
 
 .menu-item {
