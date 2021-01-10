@@ -1,51 +1,26 @@
 ---
-layout: page
+layout: wide
 title: Gear
 permalink: /gear
 ---
 Stuff I use/own for work/entertainment.
 
-### Desktop
-
-![](/images/desktop.png)
-
-OS: Manjaro Xfce 20.2 Nibia
-
-CPU: AMD A8-7650K Radeon R7, 10 Compute Cores 4C+6G @ 4x 3.3GHz
-
-RAM: 8 GB
-
+<div class="left-side" style="width:73%; float:left">
+<h3>Desktop</h3>
+<img src="/images/desktop.png" style="max-width:100%;"><br />
+OS: Manjaro Xfce 20.2 Nibia<br />
+CPU: AMD A8-7650K Radeon R7, 10 Compute Cores 4C+6G @ 4x 3.3GHz<br />
+RAM: 8 GB<br />
 Speakers: Pioneer SP-BS22-LR + TOPPING D30 DSD USB DAC
+</div>
+<div class="right-side" style="width:23%; float:right">
+<h3>Phone</h3>
+<img src="/images/iphone-homescreen.png" style="max-width:100%;"><br />
+iPhone SE<br />
+IEMs: BLON BL03<br />
+Speakers: JBL GO 2
+</div>
 
-- **Software**
-    - Firefox
-    - Notion
-    - Thunderbird
-    - Visual Studio Code
-    - Beets
-    - Tauon Music Box
 
-        ![](/images/music-player.png)
 
-        - Reads files tagged by beets.
-        - Library management → Ratings, play counts, charts.
-        - Handles playlists - Uploads copy to Spotify.
-        - Syncs with [Last.FM](http://last.FM) data.
-        - Remotely controls Spotify
-        - Ocasional Radio broadcaster
-    - VLC
-    - Foliate
-    - Fluent Reader
-    - Spotify
-    - qBitTorrent
-    - Eddie
-    - Cozy
 
-### Phone
-
-![](/images/iphone-homescreen.png)
-
-iPhone SE
-
-- IEMs: BLON BL03
-- Speakers: JBL GO 2
