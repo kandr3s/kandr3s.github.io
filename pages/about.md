@@ -3,12 +3,15 @@ layout: page
 title: "Info"
 permalink: /about
 ---
-🇨🇴 I'm Andrés. Coder. Autodidact.
+I'm Andrés, a Colombian programmer - minimalist - autodidact.
 
 I talk about music at [**Tinta en las Cintas**](https://tintaenlascintas.co).
 
-On this website there's songs, stories and other things I've [said](/posts). This is a digital record of the [books](/books), [movies](/films) and [albums](/music) I like and have enjoyed throughout the years. This is a journal of things I like.
+On this website there's [songs](/playlists), [stories](/posts) and other things I've [said](/archive).
 
-<a href="https://twitter.com/kandr3s" target="_blank"><i class="fab fa-twitter-square"></i></a>
-<a href="https://instagram.com/_kandr3s" target="_blank"><i class="fab fa-instagram-square"></i></a>
-<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><i class="fab fa-creative-commons-by"></i></a>
+This is a digital document of [books](/books) read, [films](/films) loved and life-changing [albums](/music). 
+
+This is a journal of things I like.
+
+If you want to say say "Hi" [go here](/contact).
+

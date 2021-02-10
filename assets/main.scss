@@ -58,7 +58,6 @@ blockquote p {
 
 .button-alt {
 	background-color: $text-color;
-	width: 49.5%;
 	color: $background-color;
 	padding: 10px;;
 	font-weight: bold;
@@ -73,8 +72,8 @@ blockquote p {
 }
 
 .button {
+	display: block;
 	background-color: $background-color;
-	width: 49.5%;
 	color: $text-color;
 	padding: 10px;;
 	font-weight: bold;
@@ -207,6 +206,16 @@ hr {
 	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 }
+
+// Form
+
+label {
+    display: inherit;
+}
+
+textarea {
+	max-width: 100%;
+  }				
 
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
