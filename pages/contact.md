@@ -2,6 +2,8 @@
 layout: page
 title: Contact
 permalink: /contact
+redirect_from:
+  - /contacto
 ---
 If there's something you wanna say or recommend me, drop me a few words below.
 <form action="https://formspree.io/f/xwkwzdlz" method="POST">
