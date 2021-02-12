@@ -33,6 +33,7 @@ Here's the stuff I use for work and entertainment.
 * Fluent Reader
 * Musicbrainz
 * Listenbrainz
+* Jellyfin
 
 #### Not-Open
 * Notion
