@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stuff I Use
+title: Tools I Use
 permalink: /tools
 ---
 I'm a privacy, self-hosting and free open source software enthusiast. When using software or online services, unless unpractical, I always go with the open source and privacy-respecting option. "Free" is negotiable (I'm no Stallman 😅), I think that if affordable one should always pay for essential apps even if they're free.

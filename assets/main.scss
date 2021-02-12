@@ -1,6 +1,6 @@
 ---
 ---
-$title-font: 'Vollkorn', serif;
+$title-font: 'Courier Prime', monospace;
 $body-font: 93.75%/1.5 'Courier Prime', monospace;
 $text-color: black;
 $text-link-color: #636363;
@@ -40,6 +40,17 @@ a {
 a:hover {
 	color: $text-link-color;
 }
+
+.external:after {
+	font-family: 'FontAwesome';
+	content: " \f08e";
+	font-size: 10px;
+}
+
+.post-linked {
+	display: block;
+}
+
 blockquote {
 	padding: 12px 0 0 24px;
 	position: relative;
@@ -53,7 +64,7 @@ blockquote:before {
 	top: -5px;
 }
 blockquote p {
-	margin-top: 0px;margin-left: 10px;margin-bottom: 30px;margin-right: 5px;
+	margin-top: 0px;margin-left: 5px;margin-bottom: 30px;margin-right: 10px;
 }
 
 .button-alt {
@@ -88,12 +99,6 @@ blockquote p {
 	color: $background-color;
 }
 
-.content-grid {
-	display: grid;
-	grid-template-columns: auto auto;
-	padding: 10px;
-}
-
 /*** Header ***/
 .logo-container {
 	padding: 5px;
@@ -116,7 +121,7 @@ blockquote p {
 }
 
 .header-tagline {
-	margin: 0;
+	margin-top: 0;
 }
 
 /* Content */
@@ -155,10 +160,15 @@ blockquote p {
 	border: 0;
 }
 
+.post-date {
+	display: block;
+}
+
 .category-icon {
 	width: 32px;
 	height: 32px;
 	margin-right: 10px;
+	float: left;
 }
 
 i.fa, i.fas, i.far, i.fab {
@@ -194,8 +204,11 @@ i.fa, i.fas, i.far, i.fab {
 	font-weight: bold;
 }
 iframe {
-	width: 100%;
+	width: 80%;
 	height: 380px;
+	margin-top: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 hr {
@@ -217,8 +230,32 @@ textarea {
 	max-width: 100%;
   }				
 
+// Fonts
+
+  @font-face {
+	font-family: $body-font;
+	src: url("/assets/fonts/Courier Prime.ttf");
+  }
+  @font-face {
+	font-family: $body-font;
+	src: url("/assets/fonts/Courier Prime Bold.ttf");
+	font-weight: bold;
+  }
+
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
+@media (min-width: 480px) {
+	/* wrapper stays 480px wide past 480px wide and is kept centered */
+	.wrapper {
+		width: 480px;
+		margin: 5% 5% 0 0;
+	}
+	.content {
+		margin-top: 30px;
+	}
+
+}
+
 @media (min-width: 480px) {
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
 	.wrapper {
@@ -226,28 +263,11 @@ textarea {
 		margin: 5% auto 0 auto;
 	}
 	.content {
-		margin-top: 20px;
-	}
-	.logo {
-		margin-left: 30%;
+		margin-top: 30px;
 	}
 	.category-icon {
 		width: 28px;
 		height: 28px;
 		margin-right: 10px;
-	}
-}
-
-/* All other devices (768px and up) */
-@media (min-width: 768px) {
-	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
-	to accomodate both the header column and the content column */
-	.wrapper {
-		width: 90%;
-	}
-	.content {
-		margin-left: 30%;	
-		width: 40%;
-		margin-top: 20px;
 	}
 }

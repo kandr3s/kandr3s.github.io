@@ -14,5 +14,5 @@ If there's something you wanna say or recommend me, drop me a few words below.
     <label for="name">Message</label>
     <textarea cols="100" rows="10" id="message" name="message"></textarea>
     <button class="button" type="submit">Submit</button>
-    (Do not share sensitive information through this form)
+    (Uses third-party, don't share sensitive info here)
 </form>

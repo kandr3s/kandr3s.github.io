@@ -3,20 +3,13 @@ baseurl: ''
 name: "Andrés Cárdenas"
 logo: "/images/kandr3s.jpg"
 author: "kandr3s"
-tagline: "A 🇨🇴 Programmer. Minimalist. Autodidact."
+tagline: "🇨🇴 Autodidact."
 
 # SEO
 description: "Personal website of @kandr3s [Andrés Cárdenas]"
 twitter: 
   username: kandr3s
   card: summary
-social:
-  - https://twitter.com/kandr3s
-  - https://instagram.com/_kandr3s
-  - https://github.com/kandr3s
-  - https://letterboxd.com/kandr3s/
-  - https://rateyourmusic.com/~kandr3s
-  - https://tintaenlascintas.co
 
 # Exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
