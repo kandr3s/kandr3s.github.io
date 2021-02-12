@@ -9,9 +9,9 @@ I'm @**kandr3s**...
 * [FOSS](/tools) and privacy enthusiast. 
 * Spacemen 3 [evangelist](https://tintaenlascintas.co/post/gospel){:target="_blank"}.
 
-This website is a digital journal of all things like:
+This website is a digital journal of all things I enjoy:
 * [books](/books) read, 
-* life-changing [albums](/music),
+* life-changing [records](/music),
 * loved [films](/films) and
 * _everyday_ [tales](/tales).
 
