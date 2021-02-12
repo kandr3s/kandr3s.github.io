@@ -4,7 +4,7 @@ layout: base
 I'm @**kandr3s**...
 
 * Programmer. Minimalist. Autodidact.
-* Editor of [**Tinta en las Cintas**](https://tintaenlascintas.co/){:target="_blank"}
+* Editor of [**Tinta en las Cintas**](https://tintaenlascintas.co/){:target="_blank"}.
 * [Blogger](/posts) in 2021 🤓
 * [FOSS](/tools) and privacy enthusiast. 
 * Spacemen 3 [evangelist](https://tintaenlascintas.co/post/gospel){:target="_blank"}.
