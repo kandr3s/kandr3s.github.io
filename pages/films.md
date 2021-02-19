@@ -4,10 +4,13 @@ title: Films I ❤
 permalink: films
 ---
 These are the movies I've watched over the years that I consider worth your time.
+You can also check my <a class="external" target="_blank" href="https://letterboxd.com/kandr3s">Letterboxd</a> profile for more films I've enjoyed.
+
+`Last updated February 13th 2021.`
 
 {% for film in site.data.films %}
 <p>
 {% if film.rating >= "4" %}
-<img class="log-icon" src="/images/cinema-fav.svg"><b>{{ film.name }} [{{ film.year }}]</b><br />dir. {{ film.director }}{% endif %}
+<i class="category-icon fas fa-film"></i><b>{{ film.name }} [{{ film.year }}]</b><br />dir. {{ film.director }}{% endif %}
 </p>
 {% endfor %}

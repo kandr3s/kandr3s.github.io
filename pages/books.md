@@ -7,10 +7,8 @@ Most books I've read in recent years. Favorites are highlighted.
 
 `Updated Feb 10th 2020`
 {% for book in site.data.books %}
-{% if book.rating > "4" %}
-<span><i class="fas fa-bookmark fa-2x"></i></span><b>{{ book.name }}</b><br />
-{{ book.author }}{% else %}
-<span><i class="far fa-bookmark fa-2x"></i></span>{{ book.name }}<br />
+{% if book.rating > '4' %}<i class="category-icon fas fa-bookmark"></i>{% else %}
+<i class="category-icon far fa-bookmark"></i>{% endif %}<b>{{ book.name }}</b><br />
 {{ book.author }}
-{% endif %} 
+
 {% endfor %}

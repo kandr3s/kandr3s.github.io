@@ -13,14 +13,4 @@ This website is a digital journal of all things I enjoy:
 * [books](/books) read, 
 * life-changing [records](/music),
 * loved [films](/films) and
-* _everyday_ [tales](/tales).
-
-#### My Links
-
-{% for post in site.posts %}
-<div class="post-info">{% include category-icons.html %}{% if post.external_url %}<a class="post-title-link external" href="{{ post.external_url }}" target="_blank">{% else %}<a class="post-title-link" href="{{ post.url }}">{% endif %}{{ post.title }}</a><span class="post-date">{% include date.html %}</span>
-    
-</div>
-{% endfor %}
-
-`Last updated February 12th 2021.`
+* _everything_ I [share](/posts) online.

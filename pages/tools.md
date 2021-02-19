@@ -42,6 +42,6 @@ Here's the stuff I use for work and entertainment.
 * Twitter
 * Discord
 * Spotify
-* WhatsApp (How does one gets rid of Facebook?)
+* WhatsApp (How does one get rid of Facebook?)
 
 If there's something you want me to try or recommend me just [write](/contact).

@@ -21,12 +21,17 @@ body {
 	margin-bottom: 20px;
 }
 
-header {
-	padding: 0 5px;
-	text-align: left;
+.wide {
+	width: 100%;	
 }
 
-h1, h2, {
+.profile {
+	padding: 0 5px;
+	text-align: left;
+	display: flow-root;
+}
+
+h1, h2 {
 	font-family: $title-font;
 }
 
@@ -34,7 +39,7 @@ a {
 	color: $text-color;
 	text-decoration: none;
 	border-width: 0 0 1px 0;
-	border-style: none none solid none;
+	border-style: dashed;
 }
 
 a:hover {
@@ -64,7 +69,11 @@ blockquote:before {
 	top: -5px;
 }
 blockquote p {
-	margin-top: 0px;margin-left: 5px;margin-bottom: 30px;margin-right: 10px;
+	text-align: left						;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-bottom: 30px;
+	margin-right: 10px;
 }
 
 .button-alt {
@@ -130,12 +139,28 @@ blockquote p {
 	margin: 0;
 }
 
-.menu-item {
+.menu {
+	position: relative;
+	margin-top: 0;
+	padding: 0;
+}
+
+.page-link {
+	display: inline-block;
+	list-style-type: none;
+}
+.page-link::before {
+	content: "[";
 	font-weight: bold;
 }
 
+.page-link::after {
+	content: "]";
+	font-weight: bold;
+}
 .content {
 	padding-left: 10px;
+	margin-top: 10px;
 }
 
 .content p {
@@ -148,6 +173,11 @@ blockquote p {
 .content-title {
 	margin-top: 15px;
 	margin-bottom: 0;
+}
+
+.content-grid {
+	display: grid;
+	padding: 10px
 }
 
 .post-info {
@@ -164,17 +194,18 @@ blockquote p {
 	display: block;
 }
 
-.category-icon {
-	width: 32px;
-	height: 32px;
-	margin-right: 10px;
-	float: left;
+.post-footer {
 	margin-bottom: 30px;
 }
 
-i.fa, i.fas, i.far, i.fab {
+.icons-menu {
+	margin-bottom: 30px;
+}
+
+.category-icon {
 	float: left;
-	padding: 5px;
+	font-size: 32px;
+	margin-right: 10px;
 }
 
 .log-icon {
@@ -212,6 +243,33 @@ iframe {
 	margin-left: 10%;
 }
 
+.bottom-menu {
+	padding: 0;
+}
+
+.legend {
+	display: block;
+	background-color: $background-color;
+	color: $text-color;
+	padding: 10px;
+	font-weight: bold;
+	border: 1px solid $text-color;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+
+.playlist-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+}
+
+.playlist-cover {
+	height: 240px;
+	width: 240px;
+}
+
 hr {
 	border: 0;
 	height: 1px;
@@ -228,8 +286,8 @@ label {
 }
 
 textarea {
-	max-width: 100%;
-  }				
+	max-width: 95%;
+  }	
 
 // Fonts
 
@@ -240,6 +298,17 @@ textarea {
   @font-face {
 	font-family: $body-font;
 	src: url("/assets/fonts/Courier Prime Bold.ttf");
+	font-weight: bold;
+  }
+
+  @font-face {
+	font-family: $body-font;
+	src: url("/assets/fonts/Vollkorn-Regular.ttf");
+  }
+
+  @font-face {
+	font-family: $body-font;
+	src: url("/assets/fonts/Vollkorn-Bold.ttf");
 	font-weight: bold;
   }
 
@@ -264,7 +333,7 @@ textarea {
 		margin: 5% auto 0 auto;
 	}
 	.content {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.category-icon {
 		width: 28px;

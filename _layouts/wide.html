@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html>
+{% if page.language == "es" %}
+<html lang="es">{% else %}
+<html lang="en">
+{% endif %}
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if page.title %}
-        <title>{{ site.name }}' {{ page.title }}</title>
-    {% else %}
-        <title>{{ site.name }}</title>
-    {% endif %}
+    <title>{% if page.layout == "page" or page.layout == "post" %}
+    {{ page.title }} | {{ site.author }}{% else %}{{ site.name }} [{{ site.author }}]{% endif %}</title>
 
     <link rel="apple-touch-icon" href="{{ site.logo }}"/>
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/favicon.ico" />
-    <link rel="stylesheet" href="/assets/normalize.css">
     <link rel="stylesheet" href="/assets/main.css">
-    <link rel="stylesheet" href="/assets/timeline.css">
     <script src="https://kit.fontawesome.com/1c89f352fb.js" crossorigin="anonymous"></script>
-     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&family=Vollkorn:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     {% seo %}
-    
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wide">
       <a href="/" title="Go back to Home page"><i class="fas fa-home fa-2x"></i></a>
         {% include content.html %}
     </div>

@@ -1,10 +1,13 @@
-<header>
+<div class="profile">
   {% if site.logo %}
   <div class="logo-container">
     <a class="logo" href="/" style="background-image: url('{{ site.baseurl }}{{ site.logo }}')"></a>
   </div>
   {% endif %}
   <h1 class="header-title">{{ site.name }}</h1>
-  <p style="header-tagline"><b>[</b><a href="/now">Now</a><b>]</b> - <b>[</b><a href="/contact">Contact</a><b>]</b></p>
-  <p></p>
-</header>
+  <ul class="menu">
+    {% for item in site.data.nav %}
+    <li class="page-link"><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

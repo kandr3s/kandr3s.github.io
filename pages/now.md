@@ -10,6 +10,8 @@ permalink: /now
 * reading Junky by William S. Burroughs.
 * obsessed with Frank Zappa's work.
 
+You can always check other stuff I spent time on. Such as [books](/books), [music](/music) or [movies](/movies).
+
 If you wanna talk about these or anything else, drop a few words [here](/contact).
 
-`Last updated February 12th 2021.`
+`Last updated February 19th 2021.`

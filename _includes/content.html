@@ -4,8 +4,14 @@
     {{ content }}
 
     {% if page.layout == "post" %}
+    <hr />
     <div class="post-footer">
       <p>Archived in <b>{{ page.categories }}</b> on {% include date.html %}.</p>
-      <a href="/"><i class="fas fa-home fa-2x"></i></a>
+      <ul class="menu">
+        {% for item in site.data.nav %}
+        <li class="page-link"><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
     {% endif %}
+    
