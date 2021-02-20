@@ -31,7 +31,7 @@ body {
 	display: flow-root;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
 	font-family: $title-font;
 }
 
@@ -288,29 +288,6 @@ label {
 textarea {
 	max-width: 95%;
   }	
-
-// Fonts
-
-  @font-face {
-	font-family: 93.75%/1.5 'Courier Prime', monospace;
-	src: url("/assets/fonts/Courier Prime.ttf");
-  }
-  @font-face {
-	font-family: 93.75%/1.5 'Courier Prime', monospace;
-	src: url("/assets/fonts/Courier Prime Bold.ttf");
-	font-weight: bold;
-  }
-
-  @font-face {
-	font-family: 'Vollkorn', serif;
-	src: url("/assets/fonts/Vollkorn-Regular.ttf");
-  }
-
-  @font-face {
-	font-family: 'Vollkorn', serif;
-	src: url("/assets/fonts/Vollkorn-Bold.ttf");
-	font-weight: bold;
-  }
 
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
