@@ -292,22 +292,22 @@ textarea {
 // Fonts
 
   @font-face {
-	font-family: $body-font;
+	font-family: 93.75%/1.5 'Courier Prime', monospace;
 	src: url("/assets/fonts/Courier Prime.ttf");
   }
   @font-face {
-	font-family: $body-font;
+	font-family: 93.75%/1.5 'Courier Prime', monospace;
 	src: url("/assets/fonts/Courier Prime Bold.ttf");
 	font-weight: bold;
   }
 
   @font-face {
-	font-family: $body-font;
+	font-family: 'Vollkorn', serif;
 	src: url("/assets/fonts/Vollkorn-Regular.ttf");
   }
 
   @font-face {
-	font-family: $body-font;
+	font-family: 'Vollkorn', serif;
 	src: url("/assets/fonts/Vollkorn-Bold.ttf");
 	font-weight: bold;
   }
