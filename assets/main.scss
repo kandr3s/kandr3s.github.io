@@ -140,9 +140,8 @@ blockquote p {
 }
 
 .menu {
-	position: relative;
-	margin-top: 0;
 	padding: 0;
+	margin-top: 30px;
 }
 
 .page-link {
@@ -300,7 +299,9 @@ textarea {
 	.content {
 		margin-top: 30px;
 	}
-
+	.menu {
+		margin: 0;
+	}
 }
 
 @media (min-width: 480px) {
