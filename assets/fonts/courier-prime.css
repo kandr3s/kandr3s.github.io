@@ -1,0 +1,29 @@
+/* courier-prime-italic */
+@font-face {
+	font-family: Courier Prime;
+	font-style: italic;
+	font-weight: 400;
+	src: local("Courier Prime Italic"), local("CourierPrime-Italic"), url(courier-prime-italic.woff2) format("woff2");
+}
+/* courier-prime-bold-italic */
+@font-face {
+	font-family: Courier Prime;
+	font-style: italic;
+	font-weight: 700;
+	src: local("Courier Prime Bold Italic"), local("CourierPrime-BoldItalic"), url(courier-prime-bold-italic.woff2) format("woff2");
+}
+/* courier-prime-bold */
+@font-face {
+	font-family: Courier Prime;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Courier Prime Bold"), local("CourierPrime-Bold"), url(courier-prime-bold.woff2) format("woff2");
+}
+/* courier-prime */
+@font-face {
+	font-family: Courier Prime;
+	font-style: normal;
+	font-weight: 400;
+	src: local("Courier Prime"), local("CourierPrime"), url(courier-prime.woff2) format("woff2");
+}
+
