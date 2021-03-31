@@ -4,7 +4,7 @@ title: Films I ❤
 permalink: films
 ---
 These are the movies I've watched over the years that I consider worth your time.
-You can also check my <a class="external" target="_blank" href="https://letterboxd.com/kandr3s">Letterboxd</a> profile for more films I've enjoyed.
+You can also check my [Letterboxd](https://letterboxd.com/kandr3s){: .external target="_blank"} profile for more films I've enjoyed.
 
 `Last updated February 13th 2021.`
 

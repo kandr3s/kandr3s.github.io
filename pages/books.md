@@ -5,7 +5,7 @@ permalink: /books
 ---
 Most books I've read in recent years. Favorites are highlighted.
 
-`Updated Feb 10th 2020`
+`Updated March 31st 2020`
 {% for book in site.data.books %}
 {% if book.rating > '4' %}<i class="category-icon fas fa-bookmark"></i>{% else %}
 <i class="category-icon far fa-bookmark"></i>{% endif %}<b>{{ book.name }}</b><br />

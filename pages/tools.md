@@ -7,41 +7,49 @@ I'm a privacy, self-hosting and free open source software enthusiast. When using
 
 Here's the stuff I use for work and entertainment.
 
-### Desktop
+#### Desktop
 * CPU: AMD A8-7650K Radeon R7
 * Speakers: Pioneer SP-BS22-LR
 * DAC: TOPPING D30 DSD USB DAC
+* OS: Linux
 
-### On Mobile
+#### Mobile
 * iPhone SE
 * IEMs: BLON BL03
 * Speakers: JBL GO 2
 
-#### Software & Services
-* Manjaro Linux
+#### Apps
 * Firefox
-* Tutanota
-* Visual Studio Code
-* Signal
-* Beets
-* Tauon Music Box
-* Foliate
-* VLC
-* Bitwarden
-* Eddie
-* FreeTube
-* Fluent Reader
-* Musicbrainz
-* Listenbrainz
-* Jellyfin
-
-#### Not-Open
 * Notion
+* Tutanota
+* VS Code
+* Signal
+* OpenVPN
+* [Beets](https://beets.io){: .external target="_blank"}
+* [Tauon Music Box](https://tauonmusicbox.rocks/){: .external target="_blank"}
+* [Foliate](https://johnfactotum.github.io/foliate/){: .external target="_blank"}
+* [Bitwarden](https://bitwarden.com/){: .external target="_blank"}
+* [FreeTube](https://freetubeapp.io/){: .external target="_blank"}
+* [Fluent Reader](https://hyliu.me/fluent-reader/){: .external target="_blank"}
+* [Jellyfin](https://jellyfin.org/){: .external target="_blank"}
+
+#### iOS
+* Health
+* KyBook 3
+* Spotify
+* Apollo
+* Forza Football
+* WhatsApp
+* Oak
+
+#### Services
 * GitHub
+* Netlify
 * Reddit
 * Twitter
 * Discord
-* Spotify
-* WhatsApp (How does one get rid of Facebook?)
+* Letterboxd
+* RateYourMusic
+* Listenbrainz
 
 If there's something you want me to try or recommend me just [write](/contact).
