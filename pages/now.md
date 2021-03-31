@@ -5,7 +5,7 @@ permalink: /now
 ---
 * **living** in Medellín, Colombia.
 * **learning** Philosophy.
-* **reading** Friedrich Nietzsche.
+* **reading** Friedrich Nietzsche's The Genealogy of Morals.
 
 You can always check other stuff I spent time on. Such as [books](/books), [music](/music) or [movies](/movies).
 
