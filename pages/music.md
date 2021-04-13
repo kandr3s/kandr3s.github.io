@@ -1,14 +1,19 @@
 ---
 layout: page
-title: Records I ❤
+title: Music I ❤
 permalink: /music
 ---
-The music that shaped my life, real treasures I consider worth your time.
+This is the music that's shaped my life, albums I consider treasures.
 
-In chronological order.
-`Updated Feb 10th 2020`
+I try to expand on the importance of Rock albums at [**Tinta en las Cintas**](https://tintaenlascintas.co){: class="external" target="_blank"}, a blog in Spanish about music we're passionated about.
 
-#### Treasures
+Here's a chronological list of my most important records.  
+
+<code>
+Last Updated {% last_modified_at %}
+</code>
+
+#### Personal Treasures
 {% for album in site.data.records %}
 <p class="log-list">
     {% if album.rating == "10" or album.rating =="9" %}
@@ -18,7 +23,7 @@ In chronological order.
 </p>
 {% endfor %}
 
-#### Recommended
+#### Amazing Albums
 {% for album in site.data.records %}
  <p class="log-list">
     {% if album.rating == "8" %}

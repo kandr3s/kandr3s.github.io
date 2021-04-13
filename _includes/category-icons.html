@@ -2,16 +2,16 @@
 {% assign icon = post.category %}
 {% case icon %}
     {% when "Post" %}
-        <i class="category-icon far fa-comment-alt"></i>
+        <i class="category-icon fab fa-microblog"></i>
     {% when "Tinta en las Cintas" %}
-        <i class="category-icon fas fa-record-vinyl"></i>
+        <img style="float: left; width: 32px; height: 32px; margin-right: 5px;" src="images/tintaenlascintas.svg">
     {% when "Tales" %}
-        <i class="category-icon far fa-newspaper"></i>
+    <img style="float: left; width: 32px; height: 32px; margin-right: 5px;" src="images/typewriter.svg">
     {% when "Video" %}
         <i class="category-icon fas fa-video"></i>
     {% when "Photos" %}
         <i class="category-icon far fa-images"></i>
-    {% when "Playlist" %}
+    {% when "Playlists" %}
         <i class="category-icon fab fa-spotify"></i>
     {% else %}
         <i class="category-icon fa fa-exclamation-circle"></i>

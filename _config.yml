@@ -3,10 +3,10 @@ baseurl: ''
 name: "Andrés Cárdenas"
 logo: "/images/kandr3s.jpg"
 author: "kandr3s"
-tagline: "🇨🇴 Autodidact."
+tagline: "🇨🇴 Programmer. Minimalist. Autodidact."
 
 # SEO
-description: "Personal website of @kandr3s [Andrés Cárdenas]"
+description: "Personal website of @kandr3s."
 twitter: 
   username: kandr3s
   card: summary
@@ -26,6 +26,7 @@ plugins:
   - jekyll-feed   
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-last-modified-at
 
 # Sass 
 sass:

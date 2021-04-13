@@ -5,4 +5,4 @@ permalink: /contact
 redirect_from:
   - /contacto
 ---
-[![](/images/email.png)](mailto:hello@kandr3s.co)
+Reach me at <a href="mailto:hello@kandr3s.co"><span class="highlight">`hello@kandr3s.co`</span></a>

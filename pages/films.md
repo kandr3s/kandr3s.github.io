@@ -6,7 +6,9 @@ permalink: films
 These are the movies I've watched over the years that I consider worth your time.
 You can also check my [Letterboxd](https://letterboxd.com/kandr3s){: .external target="_blank"} profile for more films I've enjoyed.
 
-`Last updated February 31th 2021.`
+<code>
+Last Updated {% last_modified_at %}
+</code>
 
 {% for film in site.data.films %}
 <p>

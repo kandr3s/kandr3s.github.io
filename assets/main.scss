@@ -129,10 +129,17 @@ blockquote p {
 .header-title {
 	font-size: 28px;
 	margin: 0;
+	display: block;
 }
 
 .header-tagline {
-	margin-top: 0;
+	display: block;
+	margin: 0;
+}
+
+.portrait {
+	width: 150px;
+	float: right;
 }
 
 /* Content */
@@ -163,10 +170,6 @@ blockquote p {
 	margin-top: 10px;
 }
 
-.content p {
-	text-align: justify;
-}
-
 .content img {
 	max-width: 100%;
 }
@@ -192,6 +195,7 @@ blockquote p {
 
 .post-date {
 	display: block;
+	margin-left: 35px;
 }
 
 .post-footer {
@@ -205,6 +209,8 @@ blockquote p {
 .category-icon {
 	float: left;
 	font-size: 32px;
+	width: 28px;
+	height: 28px;
 	margin-right: 10px;
 }
 
@@ -258,16 +264,31 @@ iframe {
 	margin-bottom: 30px;
 }
 
-.playlist-container {
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-column-gap: 5px;
-	grid-row-gap: 5px;
+.track-image {
+    float: left;
+    width: 48px;
+    width: 48px;
+    margin: 10px;
 }
 
-.playlist-cover {
-	height: 240px;
-	width: 240px;
+
+.track-title {
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+.track-artist {
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.legend-text {
+	margin-left: 5px;
+}
+.highlight {
+	background-color: $text-color;
+	color: $background-color;
+	padding: 5px;
 }
 
 hr {
@@ -277,6 +298,11 @@ hr {
 	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+}
+
+footer {
+	margin-top: 20px;
+	padding: 20px 0 20px 0;
 }
 
 // Form
@@ -313,10 +339,5 @@ textarea {
 	}
 	.content {
 		margin-top: 20px;
-	}
-	.category-icon {
-		width: 28px;
-		height: 28px;
-		margin-right: 10px;
 	}
 }

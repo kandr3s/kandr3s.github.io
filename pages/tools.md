@@ -7,18 +7,14 @@ I'm a privacy, self-hosting and free open source software enthusiast. When using
 
 Here's the stuff I use for work and entertainment.
 
-#### Desktop
+### [Desktop](images/desktop.png)
+
 * CPU: AMD A8-7650K Radeon R7
 * Speakers: Pioneer SP-BS22-LR
 * DAC: TOPPING D30 DSD USB DAC
 * OS: Linux
 
-#### Mobile
-* iPhone SE
-* IEMs: BLON BL03
-* Speakers: JBL GO 2
-
-#### Apps
+#### Software
 * Firefox
 * Notion
 * Tutanota
@@ -33,10 +29,16 @@ Here's the stuff I use for work and entertainment.
 * [Fluent Reader](https://hyliu.me/fluent-reader/){: .external target="_blank"}
 * [Jellyfin](https://jellyfin.org/){: .external target="_blank"}
 
+### [Mobile](images/mobile.jpg)
+
+* iPhone SE
+* iOS 14
+* IEMs: BLON BL03
+* Speakers: JBL GO 2
+
 #### iOS
 * Health
 * KyBook 3
-* Spotify
 * Apollo
 * Forza Football
 * WhatsApp
@@ -46,10 +48,11 @@ Here's the stuff I use for work and entertainment.
 * GitHub
 * Netlify
 * Reddit
-* Twitter
 * Discord
-* Letterboxd
-* RateYourMusic
 * Listenbrainz
+* [Spotify](/spotify){: target="_blank" class="external"}
+* [Twitter](https://twitter.com/kandr3s){: class="external"}
+* [Letterboxd](/letterboxd){: target="_blank" class="external"}
+* [RateYourMusic](/rym){: target="_blank" class="external"}
 
 If there's something you want me to try or recommend me just [write](/contact).
