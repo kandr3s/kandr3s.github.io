@@ -2,6 +2,6 @@
 layout: post
 title: "Nick Drake: La fama es solo un árbol de frutos"
 date: "2019-01-16"
-external_url: https://tintaenlascintas.co/post/nick-drake
-category: "Tinta en las Cintas"
+redirect_to: https://tintaenlascintas.co/post/nick-drake
+category: "On Music"
 ---

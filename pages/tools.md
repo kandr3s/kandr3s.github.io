@@ -11,8 +11,9 @@ Here's the stuff I use for work and entertainment.
 
 * CPU: AMD A8-7650K Radeon R7
 * Speakers: Pioneer SP-BS22-LR
-* DAC: TOPPING D30 DSD USB DAC
-* OS: Linux
+* SMSL SA50 Amplifier
+* TOPPING D30 DSD USB DAC
+* Manjaro Minimal Linux OS
 
 #### Software
 * Firefox

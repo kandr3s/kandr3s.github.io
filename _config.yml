@@ -1,4 +1,5 @@
 # General
+url: "https://kandr3s.co"
 baseurl: ''
 name: "kandr3s"
 logo: "images/kandr3s.jpg"
@@ -9,7 +10,7 @@ tagline: "🇨🇴 Programmer. Minimalist. Autodidact."
 description: "Personal website of @kandr3s. 🇨🇴 Programmer. Minimalist. Autodidact. Editor of Tinta en las Cintas."
 twitter: 
   username: kandr3s
-  card: summary
+  card: summary 
 
 # Exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
@@ -19,7 +20,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Permalinks
-permalink: pretty
+permalink: /:categories/:title
 
 plugins:
   - jekyll-seo-tag
