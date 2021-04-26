@@ -14,6 +14,7 @@ layout: none
         <title>Tinta en las Cintas: {{ post.title }}</title>
         {% elsif post.category == "Playlist" %}
         <title>Spotify Playlist: {{ post.title }}</title>
+        {% else %}<title>{{ post.title }}</title>
         {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         {% if post.redirect_to %}
