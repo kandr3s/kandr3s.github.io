@@ -1,11 +1,11 @@
 ---
 layout: playlist
-title: "Playlist: Sintiembres"
+title: "Sintiembres"
 date: "2020-11-03"
 permalink: /playlist/sintiembres
 category: "Playlist"
 image: /images/playlist-sintiembres.jpg
-spotify: https://open.spotify.com/playlist/0bLFWaincDOz1HSzneQXPT
+redirect_to: https://open.spotify.com/playlist/0bLFWaincDOz1HSzneQXPT
 ---
 ### Tracklist
 {% for track in site.data.playlists.sintiembres %}

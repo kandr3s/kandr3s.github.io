@@ -1,13 +1,12 @@
 # General
 url: "https://kandr3s.co"
 baseurl: ''
-name: "kandr3s"
-logo: "images/kandr3s.jpg"
+name: "kandr3s' webpage"
+image: "images/kandr3s.jpg"
 author: "kandr3s"
-tagline: "🇨🇴 Programmer. Minimalist. Autodidact."
 
 # SEO
-description: "Personal website of @kandr3s. 🇨🇴 Programmer. Minimalist. Autodidact. Editor of Tinta en las Cintas."
+description: "Updates from @kandr3s. 🇨🇴 Programmer. Minimalist. Autodidact."
 twitter: 
   username: kandr3s
   card: summary 

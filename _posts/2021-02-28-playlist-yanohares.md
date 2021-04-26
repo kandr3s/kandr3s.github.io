@@ -1,11 +1,11 @@
 ---
 layout: playlist
-title: "Playlist: Yanoharés"
+title: "Yanoharés"
 date: "2021-02-28"
 permalink: /playlist/yanohares
 category: "Playlist"
 image: /images/playlist-yanohares.jpg
-spotify: https://open.spotify.com/playlist/5TgmyeJaqoclHSSp72Z69P
+redirect_to: https://open.spotify.com/playlist/5TgmyeJaqoclHSSp72Z69P
 ---
 The turn of the year, the "magical change" we all expect. 
 2020 is gone and all the things I was to do remain to do.

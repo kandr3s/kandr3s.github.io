@@ -7,7 +7,7 @@ I'm a privacy, self-hosting and free open source software enthusiast. When using
 
 Here's the stuff I use for work and entertainment.
 
-### [Desktop](images/desktop.png)
+### Desktop
 
 * CPU: AMD A8-7650K Radeon R7
 * Speakers: Pioneer SP-BS22-LR
@@ -30,14 +30,14 @@ Here's the stuff I use for work and entertainment.
 * [Fluent Reader](https://hyliu.me/fluent-reader/){: .external target="_blank"}
 * [Jellyfin](https://jellyfin.org/){: .external target="_blank"}
 
-### [Mobile](images/mobile.jpg)
+### Mobile
 
 * iPhone SE
 * iOS 14
 * IEMs: BLON BL03
 * Speakers: JBL GO 2
 
-#### iOS
+#### iOS Apps
 * Health
 * KyBook 3
 * Apollo
@@ -52,7 +52,7 @@ Here's the stuff I use for work and entertainment.
 * Discord
 * Listenbrainz
 * [Spotify](/spotify){: target="_blank" class="external"}
-* [Twitter](https://twitter.com/kandr3s){: class="external"}
+* [Nitter RSS](https://github.com/zedeus/nitter){: target="_blank" class="external"}
 * [Letterboxd](/letterboxd){: target="_blank" class="external"}
 * [RateYourMusic](/rym){: target="_blank" class="external"}
 

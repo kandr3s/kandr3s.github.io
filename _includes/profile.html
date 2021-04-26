@@ -1,10 +1,10 @@
 <div class="profile">
-  {% if site.logo %}
+  {% if site.image %}
   <div class="logo-container">
-    <a class="logo" href="/" style="background-image: url('{{ site.baseurl }}{{ site.logo }}')"></a>
+    <a class="logo" href="/" style="background-image: url('{{ site.baseurl }}{{ site.image }}')"></a>
   </div>
   {% endif %}
-  <h1 class="header-title">{{ site.name }}</h1>
+  <h1 class="header-title">{{ site.author }}</h1>
   <ul class="menu header-tagline">
     {% for item in site.data.nav %}
     <li class="page-link"><a href="{{ item.url }}">{{ item.title }}</a></li>
