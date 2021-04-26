@@ -18,7 +18,7 @@ layout: none
         {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         {% if post.redirect_to %}
-        <description>{{ post.description | xml_escape }}<br />Link: {{ post.redirect_to }}</description>
+        <description>{{ post.description | xml_escape }} Link: {{ post.redirect_to }}</description>
         <link>{{ post.redirect_to | escape }}</link>
         <guid isPermaLink="true">{{ post.redirect_to }}</guid>
         {% else %}
