@@ -27,7 +27,7 @@ Here's the stuff I use for work and entertainment.
 * [Foliate](https://johnfactotum.github.io/foliate/){: .external target="_blank"}
 * [Bitwarden](https://bitwarden.com/){: .external target="_blank"}
 * [FreeTube](https://freetubeapp.io/){: .external target="_blank"}
-* [Fluent Reader](https://hyliu.me/fluent-reader/){: .external target="_blank"}
+* [Miniflux](https://miniflux.app/){: .external target="_blank"}
 * [Jellyfin](https://jellyfin.org/){: .external target="_blank"}
 
 ### Mobile
