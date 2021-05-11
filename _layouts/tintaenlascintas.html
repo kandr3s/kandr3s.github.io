@@ -1,0 +1,47 @@
+---
+layout: tintaenlascintas
+---
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.title %}
+        <title>{{ page.title }} | Tinta en las Cintas by kandr3s</title>
+    {% endif %}
+
+    <link rel="apple-touch-icon" href="{{ site.logo }}"/>
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/favicon.ico" />
+    <link rel="stylesheet" href="/assets/tintaenlascintas.css">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+    {% seo %}
+    <!-- shareon by NickKaramoff -->
+    <link href="https://raw.githubusercontent.com/kandr3s/tintaenlascintas.co/master/assets/css/shareon.min.css" rel="stylesheet"> 
+    <script src="https://raw.githubusercontent.com/kandr3s/tintaenlascintas.co/master/assets/js/shareon.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+        <header>
+            <div class="logo-container">
+              <a href="/tintaenlascintas"><img class="logo" src="/images/tintaenlascintas-banner.png" alt="{{ site.name }} logo"/></a>
+              <!--a href="/tintaenlascintas"><h1 class="header-title">Tinta en las Cintas</h1></a-->
+              <p class="header-tagline"><b>La vida es un mixtape.</b></p>
+            </div>
+          </header>        
+        <div class="content{% if page.layout == 'post' %} post{% endif %}">
+          {% if page.title != "La vida es un mixtape" %}
+          <h2 class="content-title">{{ page.title }}</h2>
+          {% endif %}
+          {{ content }}
+          <hr />
+          {% if page.title != "La vida es un mixtape" %}
+    <div class="post-footer">
+      <p>Archived in <b>{{ page.categories }}</b> on {% include date.html %}.</p>
+    </div>
+    {% endif %}
+    <h3><a href="/posts">Back to All Posts</a></h3>
+        </div>
+      </div>
+  </body>
+</html>
