@@ -1,2 +1,5 @@
-- title: "Posts"
-  url: /posts
+- title: "About"
+  url: /me
+
+- title: "RSS"
+  url: /feed.xml
