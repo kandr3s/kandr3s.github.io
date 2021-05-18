@@ -6,7 +6,7 @@ permalink: /tintaenlascintas/:title
 image: /images/tintaenlascintas/nick-drake.png
 date: '2019-01-16 15:00'
 author: kandr3s
-category: "On Music"
+category: "Tinta en las Cintas"
 ---
 ![Nick Drake](/images/tintaenlascintas/nick-drake2.png)
 

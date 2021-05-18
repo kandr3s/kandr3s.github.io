@@ -5,10 +5,10 @@ date: "2021-05-02"
 permalink: /playlist/raining-again
 category: "Playlist"
 image: /images/playlist-raining-again.jpg
-redirect_to: https://open.spotify.com/playlist/6VDpLDUOmzAPi47m4IECIU
+spotify: https://open.spotify.com/playlist/6VDpLDUOmzAPi47m4IECIU
 ---
-Rains all over Medellín again.
-The country is in chaos.
+Rains all over Medellín again.  
+The country is in chaos.  
 Here's nothing but guitar sounds.
 
 ### Tracklist

@@ -6,7 +6,7 @@ description: "¿Que hace que un disco sea Gospel? ¿La letra o la estética? Tre
 author: kandr3s
 image: /images/tintaenlascintas/Gospel/gospel.png
 permalink: /tintaenlascintas/:title
-category: "On Music"
+category: "Tinta en las Cintas"
 ---
 
 ![Drogas, tragedias y música gospel](/images/tintaenlascintas/Gospel/gospel.jpg)

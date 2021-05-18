@@ -6,7 +6,7 @@ permalink: /tintaenlascintas/:title
 image: /images/tintaenlascintas/down-colorful-hill.jpg
 description: "Reseña del debut de la banda de slowcore Red House Painters titulado Down Colorful Hill"
 author: kandr3s
-category: "On Music"
+category: "Tinta en las Cintas"
 ---
 Hace un mes compré _Down Colorful Hill_ en Record Store Day, creo que hasta el momento es el vinilo más costoso en mi colección y ni siquiera es una primera edición. Pero soy apasionado por esos discos que parecen un banda sonora para la media noche, esos cuyo sonido atmosférico te captura y te permiten escapar de la realidad.
 
