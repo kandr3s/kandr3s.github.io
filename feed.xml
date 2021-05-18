@@ -10,7 +10,7 @@ layout: none
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts %}
       <item>
-        {% if post.category == "On Music" %}
+        {% if post.category == "Tinta en las Cintas" %}
         <title>Tinta en las Cintas: {{ post.title }}</title>
         {% elsif post.category == "Playlist" %}
         <title>Spotify Playlist: {{ post.title }}</title>

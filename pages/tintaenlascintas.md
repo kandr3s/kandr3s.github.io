@@ -6,7 +6,7 @@ permalink: /tintaenlascintas
 ---
 <div class="grid-container">
   {% for post in site.posts %}
-  {% if post.category == "On Music" %}
+  {% if post.category == "Tinta en las Cintas" %}
   <article class="post-listing">
     <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
     <div class="album-art-container">

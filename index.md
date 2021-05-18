@@ -1,7 +1,9 @@
 ---
 layout: base
 ---
-Welcome to <a href="/me" title="About me"><b>kandr3s</b></a>' webpage, a place to share thoughts, ideas and music.
+I'm <span class="highlight">@<b>`kandr3s`</b></span> <span class="page-link">Colombian / Minimalist / Autodidact</span>
+
+This is my personal space on the Internet. Here I share everything I post on the Internet.
 
 <div class="legend">
     <i class="fab fa-microblog"></i><span class="legend-text">Post</span>

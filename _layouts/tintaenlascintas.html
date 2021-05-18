@@ -24,7 +24,7 @@ layout: tintaenlascintas
     <div class="wrapper">
         <header>
             <div class="logo-container">
-              <a href="/tintaenlascintas"><img class="logo" src="/images/tintaenlascintas-banner.png" alt="{{ site.name }} logo"/></a>
+              <a href="/tintaenlascintas"><img class="logo" src="https://kandr3s.co/images/tintaenlascintas-banner.png" alt="{{ site.name }} logo"/></a>
               <!--a href="/tintaenlascintas"><h1 class="header-title">Tinta en las Cintas</h1></a-->
               <p class="header-tagline"><b>La vida es un mixtape.</b></p>
             </div>
@@ -37,10 +37,10 @@ layout: tintaenlascintas
           <hr />
           {% if page.title != "La vida es un mixtape" %}
     <div class="post-footer">
-      <p>Archived in <b>{{ page.categories }}</b> on {% include date.html %}.</p>
+      <p>Publicado en <b>{{ page.categories }}</b> el {{ page.date | date: "%D"}}.</p>
     </div>
     {% endif %}
-    <h3><a href="/posts">Back to All Posts</a></h3>
+    <h3><a href="/posts">kandr3s</a> | <a href="/tintaenlascintas">Tinta en las Cintas</a></h3></span>
         </div>
       </div>
   </body>
