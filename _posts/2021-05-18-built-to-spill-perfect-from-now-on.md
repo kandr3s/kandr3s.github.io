@@ -1,7 +1,7 @@
 ---
 layout: tintaenlascintas
 title: "Built to Spill - Perfect From Now On"
-description: ""
+description: "Un álbum épico, personal y vergonzoso. Un clásico del indie rock de los noventaspero también un homenaje inspirado."
 date: "2021-05-16"
 image: /images/tintaenlascintas/built_to_spill-perfect_from_now_on.jpg
 permalink: /tintaenlascintas/:title
